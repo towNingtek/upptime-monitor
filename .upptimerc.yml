@@ -10,10 +10,10 @@ sites:
       - "Authorization: ${{ secrets.POE_API_KEY }}"
   - name: BETA eID Google Oauth
     method: POST
-    url: https://beta-eid-backend.townway.com.tw
+    url: https://beta-eid-backend.townway.com.tw/accounts/oauth/google
     headers:
-      - "Content-Type: multipart/form-data"
-    body: '{ "email": "yillkid@gmail.com", "username":"黃俊毓", "token":${{ secrets.EID_GOOGLE_OAUTH_TOKEN }} }'
+      - "Content-Type: text/html"
+    body: '{"email":"yillkid@gmail.com", "username":"黃俊毓", "token":${{ secrets.EID_GOOGLE_OAUTH_TOKEN }}'
   - name: Node1 upptime test
     url: http://node1.puyuma.org:5002
 
