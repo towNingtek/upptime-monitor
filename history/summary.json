@@ -22,17 +22,19 @@
     "url": "http://node1.puyuma.org:5002",
     "icon": "https://favicons.githubusercontent.com/node1.puyuma.org",
     "slug": "node1-upptime-test",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.81%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
     "time": 446,
     "timeDay": 446,
     "timeWeek": 446,
     "timeMonth": 446,
     "timeYear": 446,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-06-15": 0
+    }
   }
 ]
