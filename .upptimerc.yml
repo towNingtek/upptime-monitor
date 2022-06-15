@@ -8,6 +8,12 @@ sites:
     url: https://poe.townway.com.tw/iota/message?messageID=42a2685d98d11bfb336d0928ce1e49cf3c85f5f2f075f5028fc1ea29497a1c67
     headers:
       - "Authorization: ${{ secrets.POE_API_KEY }}"
+  - name: BETA eID Google Oauth
+    method: POST
+    url: https://beta-eid-backend.townway.com.tw
+    headers:
+      - "Content-Type: multipart/form-data"
+    body: '{ "email": "yillkid@gmail.com", "username":"黃俊毓", "token":${{ secrets.EID_GOOGLE_OAUTH_TOKEN }} }'
   - name: Node1 upptime test
     url: http://node1.puyuma.org:5002
 
