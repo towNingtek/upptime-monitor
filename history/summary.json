@@ -5,14 +5,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/poe.townway.com.tw.ico",
     "slug": "po-e-server",
     "status": "up",
-    "uptime": "87.83%",
+    "uptime": "87.85%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.80%",
     "uptimeMonth": "99.78%",
     "uptimeYear": "82.72%",
-    "time": 1471,
-    "timeDay": 1423,
-    "timeWeek": 1249,
+    "time": 1470,
+    "timeDay": 1364,
+    "timeWeek": 1246,
     "timeMonth": 1277,
     "timeYear": 1233,
     "dailyMinutesDown": {
@@ -114,12 +114,13 @@
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
     "time": 1724,
-    "timeDay": 2351,
-    "timeWeek": 1625,
-    "timeMonth": 1532,
-    "timeYear": 1459,
+    "timeDay": 1458,
+    "timeWeek": 1575,
+    "timeMonth": 1520,
+    "timeYear": 1460,
     "dailyMinutesDown": {
-      "2024-01-24": 65,
+      "2024-01-25": 65,
+      "2024-01-24": 1440,
       "2024-01-23": 1440,
       "2024-01-22": 1440,
       "2024-01-21": 1440,
@@ -482,8 +483,7 @@
       "2023-01-29": 1440,
       "2023-01-28": 1440,
       "2023-01-27": 1440,
-      "2023-01-26": 1440,
-      "2023-01-25": 1440
+      "2023-01-26": 1440
     }
   },
   {
